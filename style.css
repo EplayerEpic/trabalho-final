@@ -1,0 +1,198 @@
+* {
+    text-decoration: none;
+  }
+  
+  body {
+  
+    background-color: black;
+  
+    animation-name: Animation;
+  
+    animation-duration: 2s;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    font-size: large;
+  
+  }
+  
+  img{
+  
+  
+  width: 100%;
+  
+  margin-left: 1px;
+  
+  
+  
+  }
+  
+  #Ddlc {
+    background-image: url("https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_DokiDokiLiteratureClubPlus_TeamSalvato_S1_2560x1440-11bf3498c7d817623a070b9b4ac84288");
+  
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+  
+    animation-name: Animation;
+  
+    animation-duration: 2s;
+  
+   
+  }
+  
+  #p1 {
+    text-align: center;
+  
+  
+  
+  
+  }
+  
+  hr {
+    color: pink;
+  
+  
+  }
+  
+  #header1 {
+    border: 5px solid pink;
+  
+    color: black;
+    background-color: rgba(254, 154, 189, 0.825);
+    background-image: linear-gradient(0deg, transparent 50%,
+        rgb(37, 227, 141) 50%);
+    background-size: 42px 42px;
+  
+  
+  
+  
+  }
+  
+  #header2 {
+    border: 5px solid pink;
+  
+  
+  
+  
+    height: 50px;
+  
+  
+  }
+  
+  div {
+    background-color: black;
+  }
+  
+  li {
+  
+    border: 5px solid rgb(243, 95, 120);
+  
+    padding: 10px;
+  
+    color: white;
+  
+    list-style-type: none;
+  
+    display: inline-block;
+  
+    width: 250px;
+  
+    text-align: center;
+  
+  
+  
+  
+  }
+  
+  
+  .Yuri {
+    color: blueviolet;
+  
+  }
+  
+  .Yuri:hover {
+  
+  
+    background-color: rgb(168, 92, 238);
+  
+    transition-property: all;
+  
+    transition-duration: 1s;
+  
+  
+  }
+  
+  .Sayori {
+  
+    color: rgb(83, 143, 253);
+  
+  
+  
+  
+  
+  
+  }
+  
+  .Sayori:hover {
+  
+  
+  
+    background-color: rgb(141, 175, 238);
+  
+    transition-property: all;
+  
+    transition-duration: 1s;
+  
+  
+  }
+  
+  .Natsuki {
+  
+    color: rgb(250, 109, 132);
+  
+  
+  }
+  
+  .Natsuki:hover {
+  
+    background-color: rgb(225, 95, 120);
+  
+    transition-property: all;
+  
+    transition-duration: 1s;
+  
+  
+  }
+  
+  .Monika {
+    color: chartreuse;
+  
+  }
+  
+  .Monika:hover {
+  
+    background-color: rgb(123, 176, 71);
+  
+    transition-property: all;
+  
+    transition-duration: 1s;
+  
+  
+  
+  }
+  
+  @keyframes Animation {
+  
+    from {
+      opacity: 0;
+  
+      transform: translateX(-10px);
+    }
+  
+    to {
+      opacity: 1;
+  
+      transform: translateX(0);
+    }
+  }
